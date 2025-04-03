@@ -52,11 +52,11 @@ The core functionality revolves around simulating machine breakdowns based on **
    - **Spring Security** for managing user authentication and role-based access.  
    - **WebSockets (Spring WebSocket)** for real-time updates and communication between the server and the client.  
    - **JPA (Java Persistence API)** for managing database interactions.  
-   - **H2 (for development)** or **PostgreSQL** for production database storage.  
+   - **H2 (for development)** or **MongoDB** for production database storage.  
    - **JWT (JSON Web Tokens)** for secure authentication.
 
 3. **Data Storage**:  
-   - **PostgreSQL** (production) for storing simulation data, machine configurations, and user info.  
+   - **MongoDB** (production) for storing simulation data, machine configurations, and user info.  
    - **Redis** (optional) for caching real-time data for performance optimization.
 
 ---
